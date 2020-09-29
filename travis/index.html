@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Happy Birthday!</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<style>
+			/* Put Styles Here */
+            div {
+                max-width: 600px;
+                margin: 0 auto;
+            }
+            .hidden {
+                position: relative;
+                outline: 0;
+                border: 0;
+            }
+            .hidden::before {
+                position: absolute;
+                content: " ";
+                z-index: 1;
+                background: white;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+            button {
+                display: inline-block;
+                margin: 0 0 2%;
+            }
+            body {
+                margin: 10%;
+                text-align: center;
+            }
+		</style>
+	</head>
+
+	<body>
+        <button type="button" name="button">Open Card</button>
+		<div class="hidden">
+			<h1>Happy <em>Belated</em> Birthday, <strike>Cody</strike> Travis </h1>
+			<img src="cake.gif" alt="" />
+			<br/>
+			<br/>
+			<cite>&mdash; Maxx</cite>
+		</div>
+
+		<!-- Put HTML Here -->
+		<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+		<script>
+            $(document).ready(function(){
+                $('button').click(function(){
+                    $('div').removeClass('hidden');
+                    $(this).addClass('hidden');
+                });
+            });
+			// Put Scripts Here
+		</script>
+	</body>
+
+</html>
