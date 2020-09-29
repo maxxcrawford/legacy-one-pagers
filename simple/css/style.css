@@ -1,0 +1,187 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; vertical-align: top; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
+
+audio, canvas, video { display: -moz-inline-stack; -moz-box-orient: vertical; display: inline-block; *display: inline; *zoom: 1; vertical-align: top; margin-right: -4px; }
+
+audio:not([controls]), [hidden] { display: none; }
+
+a:focus { outline: none; }
+
+nav ul, nav ol { margin: 0; padding: 0; list-style: none; }
+
+img { border: 0; max-width: 100%; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+svg:not(:root) { overflow: hidden; }
+
+button::-moz-focus-inner, input::-moz-focus-inner { padding: 0; border: 0; }
+
+input[type="radio"] { vertical-align: text-bottom; }
+
+input[type="checkbox"] { vertical-align: text-bottom; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+body { cursor: default; }
+
+a, button, input[type="submit"] { cursor: pointer; }
+
+*, *:after, *:before { box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+
+.clearfix:after { clear: both; }
+
+.clearfix { *zoom: 1; }
+
+.hide { display: none; }
+
+.show { display: block; visibility: visible; }
+
+.hidden { position: absolute !important; z-index: 999; top: -999em; left: -999em; height: auto; display: block; }
+
+.center { text-align: center; }
+
+/*  HEADING ----------------- */
+h1 { font-size: 36px; line-height: 1.3em; }
+
+h2 { font-size: 24px; line-height: 1.3em; }
+
+h3 { font-size: 18px; line-height: 1.5em; }
+
+h4 { font-size: 16px; line-height: 1.5em; }
+
+h5 { font-size: 14px; line-height: 1.5em; }
+
+h6 { font-size: 14px; line-height: 1.5em; }
+
+/*  TEXT ELEMENT ----------------- */
+p { margin: 0 0 1.5em; }
+
+em { font-style: italic; }
+
+b, strong { font-weight: bold; }
+
+small { font-size: 85%; }
+
+cite { font-style: normal; }
+
+dfn { font-style: italic; font-weight: bold; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; }
+
+sup { top: -0.5em; vertical-align: sub; }
+
+sub { bottom: -0.25em; vertical-align: super; }
+
+abbr, acronym { font-size: 90%; text-transform: uppercase; border-bottom: 1px dotted #dddddd; cursor: help; }
+
+del { color: #aaaaaa; text-decoration: line-through; vertical-align: baseline; }
+
+pre { background: #ffff99; border-bottom: 1px solid #ff2; border-top: 1px solid #ff2; color: #990; margin: 1.5em 0; padding: 0.75em 0.45em; white-space: pre; white-space: pre-wrap; white-space: pre-line; white-space: -pre-wrap; white-space: -o-pre-wrap; white-space: -moz-pre-wrap; white-space: -hp-pre-wrap; word-wrap: break-word; }
+
+code { background: #ffff99; color: #990; font-size: 11px; line-height: 1.2em; padding: 0.3em; }
+
+pre, code, kbd, samp, tt { font-family: Consolas, Inconsolata, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+
+ins { text-decoration: underline; }
+
+mark { background: #ff0; color: #990; font-size: 11px; }
+
+address { display: block; margin: 0 0 1.5em; font-style: italic; }
+
+/*  LISTS ----------------- */
+ul, ol { margin: 1em 0; padding: 0 0 0 2.25em; }
+
+ul { list-style: disc; }
+
+ol { list-style-type: decimal; }
+
+ol ol { list-style: upper-alpha; }
+
+ol ol ol { list-style: lower-roman; }
+
+ol ol ol ol { list-style: lower-alpha; }
+
+li ul, li ol { margin: 0; }
+
+dl { margin: 0 1.625em; }
+
+dt { font-weight: bold; }
+
+dd { margin-bottom: 1.625em; }
+
+* html { font-size: 75%; }
+
+html { font-size: 12px; line-height: 2em; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; }
+
+body { background: white; color: #58595b; text-rendering: optimizeLegibility; }
+
+::-moz-selection { background: #005a99; color: white; text-shadow: none; }
+
+::selection { background: #005a99; color: white; text-shadow: none; }
+
+a { color: #005a99; text-decoration: none; }
+a:hover { color: #0052cc; text-decoration: none; }
+a:focus { outline: none; }
+
+input.placeholder, input.placeholder.placeholder, textarea.placeholder, textarea.placeholder.placeholder { color: #8b8c8e; }
+input:-moz-placeholder, input.placeholder:-moz-placeholder, textarea:-moz-placeholder, textarea.placeholder:-moz-placeholder { color: #8b8c8e; }
+input::-webkit-input-placeholder, input.placeholder::-webkit-input-placeholder, textarea::-webkit-input-placeholder, textarea.placeholder::-webkit-input-placeholder { color: #8b8c8e; }
+
+/* CSS Wizardry Grids (https://github.com/csswizardry/csswizardry-grids);
+==================================================================================================== */
+[class*="push-"] { position: relative; }
+
+[class*="pull-"] { position: relative; }
+
+body.debug { cursor: default; }
+
+body.debug:before { position: fixed; z-index: 101; top: 0; left: 0; right: 0; display: block; padding: 5px; font-size: 10px; color: #FFF; line-height: 14px; }
+@media screen and (min-width: 320px) { body.debug:before { content: "Smartphones (portrait)"; background: rgba(185, 35, 35, 0.8); } }
+@media screen and (min-width: 480px) { body.debug:before { content: "Smartphones (landscape)"; background: rgba(183, 65, 35, 0.8); } }
+@media screen and (min-width: 600px) { body.debug:before { content: "Tablets - Kindle Fire"; background: rgba(181, 95, 35, 0.8); } }
+@media screen and (min-width: 768px) { body.debug:before { content: "Tablets - iPad (portrait)"; background: rgba(179, 125, 35, 0.8); } }
+@media screen and (min-width: 1024px) { body.debug:before { content: "Tablets - iPad (landscape)"; background: rgba(177, 155, 35, 0.8); } }
+@media screen and (min-width: 1150px) { body.debug:before { content: "Small Desktops and laptops"; background: rgba(175, 185, 35, 0.8); } }
+@media screen and (min-width: 1280px) { body.debug:before { content: "Desktops and laptops"; background: rgba(175, 185, 35, 0.8); } }
+
+#scrollbar_measure { position: absolute; top: -100px; width: 100px; height: 100px; overflow: scroll; background: #900; }
+
+#win_size { position: fixed; z-index: 99999; top: 0; right: 0; padding: 5px 10px; font: normal 10px/14px Arial, Helvetica, sans-serif; color: #FFF; background: rgba(0, 0, 0, 0.35); }
+
+/* HEADER styles
+==================================================================================================== */
+/* PAGE styles
+==================================================================================================== */
+html, body { height: 100%; }
+
+body { overflow-x: hidden; font: normal 14px "Helvetica Neue", Helvetica, Arial, sans-serif; color: #58595b; }
+
+.wrapper { max-width: 1200px; margin: 0 auto; padding: 0 1em; }
+
+/* INDEX styles
+==================================================================================================== */
+/* FOOTER styles
+==================================================================================================== */
+footer { position: relative; z-index: 5; margin-top: -70px; padding-top: 10px; height: 70px; font: normal 11px "Helvetica Neue", Helvetica, Arial, sans-serif; color: #838e93; text-transform: uppercase; background: #f4f7f8; overflow: hidden; }
+
+/* MEDIA QUERIES styles
+==================================================================================================== */
+/* PRINT styles
+==================================================================================================== */
+@media print { * { background: transparent !important; color: black !important; box-shadow: none !important; text-shadow: none !important; }
+  /* Black prints faster: h5bp.com/s */
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  /* h5bp.com/t */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; } }

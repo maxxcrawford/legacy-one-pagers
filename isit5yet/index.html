@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Is it 5:00 yet?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style>
+    /* Put Styles Here */
+        body {
+            background: white;
+            padding: 10%;
+            text-align: center;
+            font-family: sans-serif;
+        }
+        h2 {
+
+            text-align: center;
+            padding: 0 1em;
+        }
+        h1 {
+            color: white;
+            margin: 0;
+            padding: 0 1em;
+            font-size: 72px;
+        }
+        .nope {
+            background: red;
+        }
+        .nope h2 {
+            color: pink;
+        }
+        .yep {
+            background: green;
+        }
+        .yep h2 {
+            color: lime;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Is it 5 yet?</h2>
+    <h1></h1>
+    <!-- Put HTML Here -->
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script>
+    var today = new Date().getHours();
+	console.log(today);
+    if (today < 17) {
+       $('body').addClass('nope');
+	   $('h1').text('No.');
+
+    } else {
+        $('body').addClass('yep');
+		$('h1').text('Yes.');
+    }
+
+    </script>
+</body>
+
+</html>
